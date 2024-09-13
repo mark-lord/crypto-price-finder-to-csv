@@ -16,9 +16,9 @@ pip install requests
 
 ## Usage
 
-1. Git clone this repository ``` git clone https://github.com/mark-lord/crypto-price-finder-to-csv ``` or else download the `price-finder.py` script. If you're worried about this being malware in any way, you can go to the file here in Github, open the code, copy and paste it into chatGPT or Claude and it'll tell you what it does!
+1. Git clone this repository `git clone https://github.com/mark-lord/crypto-price-finder-to-csv` or else download the `price-finder.py` script. If you're having trouble doing either of those things, don't worry, you can navigate directly into the file here on Github and literally copy/paste the code into a textfile and then do save-as `price-finder.py`. Side note, if you're worried about this being malware in any way, then when you go to the file here in Github, you can do the same thing of opening the code, copying and pasting it into chatGPT or Claude, and it'll tell you what it does!
 
-2. Open a terminal or command prompt and navigate to the directory containing the script. I use Cursor (a VSCode fork) but anything with commandline will do. Mac's default is Terminal, Windows is CMD, Linux is... well, if you're on Linux you're probably not needing this level of info
+2. If you haven't already, open a terminal or command prompt and navigate to the directory containing the script. I use Cursor (a VSCode fork) but anything with commandline will do. For Mac users, you can right click on the folder containing the `price-finder.py` file and select open in Terminal. Windows you can navigate to the folder, click in the address bar and type CMD to open up commandline, and for Linux... well, if you're on Linux you're probably not needing this level of info!
 
 3. Go to whichever pool you're interested in on CoinGeckoTerminal - say you have an employer paying you a token on a WETH / UniSwapv3 pool - then copy the URL for the page, then run the price-finder.py script with the GeckoTerminal pool URL as an argument:
 
