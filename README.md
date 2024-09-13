@@ -1,5 +1,5 @@
 # crypto-price-finder-to-csv
-TL;DR: A simple (and free!) python script that makes use of CoinGeckoTerminal's public API to get the past 6 months of end-of-day prices for any token pool you can find on CoinGeckoTerminal. Good for tax info :)
+TL;DR: A simple (and free!) python script that makes use of CoinGeckoTerminal's public API to get the past 6 months of end-of-day prices for any token pool you can find on CoinGeckoTerminal. Could be good for tax info, certainly was for me :) [Legal obligation - none of this is tax advice!]
 
 Too long, did read: 
 This Python script allows you to fetch historical price data for cryptocurrency tokens from GeckoTerminal. It retrieves up to 6 months of daily price data and saves it to a CSV file in your current working directory.
